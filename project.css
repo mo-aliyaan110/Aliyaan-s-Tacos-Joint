@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family :Arial, Helvetica, sans-serif;
+}
+
+.parent{
+    position: relative;
+    background-image: linear-gradient(to right, rgba(255, 24, 120, 0.767), rgba(34, 0, 128, 0.74));
+    width: 100vw;
+    height: 100vh;
+}
+.header .welcometext{
+    position: relative;
+    width: 100vw;
+    text-transform: capitalize;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, .9);
+}
+.header .welcometext .ullist{
+    position: relative;
+    top: 0px;
+    left: 22%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.header .welcometext .ullist .litem{
+    position: relative;
+    font-size: 1.5em;
+}
+.body .menupanel{
+    position: relative;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.body .menupanel .menuitem{
+    position: relative;
+    width: 15%;
+    background-color: #f1c40f;
+    text-align: center;
+    margin: 20px 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 4px 6px 20px  black;
+    padding: 05px 10px;
+}
+.image .bodyimage{
+    position: relative;
+    background-image: url(./chad-montano-lP5MCM6nZ5A-unsplash.jpg);
+    background-position: left;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    margin: 20px 59px;
+    width: 70vw;
+    display: inline-block;
+    height: 60vh;
+    
+    
+    
+    
+    
+
+}
+.price .menuprice{
+    position: relative;
+    top: -498px;
+    left: 920px;
+    width: 30vw;
+    height: 60vh;
+    display: grid;
+    margin-left: 30px;
+}
+.price .menuprice .menuitemprice{
+    position: relative;
+    height:28vh ;
+    top: 8px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #f1c40f ;
+    box-shadow: 4px 6px 20px  black;
+}
+.price .menuprice .menuitemprice .internalprice{
+    position: relative;
+    top: 8vh;
+    font-size: .9rem;
+
+}
+.price .menuprice .menuitemprice .internalprice .pricesize{
+    position: relative;
+    font-size: 4.5rem;
+}
+.footer .footermenu{
+    position: relative;
+    top: -480px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+} 
+.footer .footermenu .menu{
+    position: relative;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 22vw;
+    margin: 3px -35px;
+    
+    height: 17.5vh;
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: 3px 3px 5px  black;
+    text-transform: capitalize;
+}
+.footer .footermenu .menu .footertext{
+    position: relative;
+    text-align: center;
+    margin: 1px 9px;
+    
+    font-size: .7rem;
+}
