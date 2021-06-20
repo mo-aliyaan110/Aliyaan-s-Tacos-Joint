@@ -11,9 +11,21 @@
     width: 100vw;
     height: 100vh;
 }
+.header .welcometext1{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+    text-transform: capitalize;
+       
+}
 .header .welcometext{
     position: relative;
     width: 100vw;
+    top: -50px;
+    left: 250px;
     text-transform: capitalize;
     display : flex;
     justify-content: center;
@@ -28,10 +40,23 @@
     display: flex;
     justify-content: space-evenly;
     
+
+    
 }
 .header .welcometext .ullist .litem{
     position: relative;
     font-size: 1.5em;
+    transition: transform -5s;
+    
+}
+.header .welcometext .ullist .litem:hover{
+    color: #f1c40f;
+    transform: translateY(13%);
+    cursor:pointer;
+}
+.parentbody{
+    position: relative;
+    top: -43px;
 }
 .body .menupanel{
     position: relative;
@@ -50,24 +75,45 @@
     font-weight: 600;
     box-shadow: 4px 6px 20px  black;
     padding: 05px 10px;
+    transition: all -1s ;
 }
+.body .menupanel .menuitem:hover{
+    position: relative;
+    transform: translateY(-13%);
+    cursor: pointer;
+    background-image: linear-gradient(to right, #c0392b, #2980b9);
+    color: white;
+    opacity: 0.9;
+    
+}
+
 .image .bodyimage{
     position: relative;
-    background-image: url(./chad-montano-lP5MCM6nZ5A-unsplash.jpg);
+    background-image:  url(./chad-montano-lP5MCM6nZ5A-unsplash.jpg);
     background-position: left;
+    opacity: 0.8;
     background-size: 85%;
     background-repeat: no-repeat;
     margin: 20px 59px;
     width: 70vw;
     display: inline-block;
     height: 60vh;
-    
-    
-    
-    
-    
-
 }
+.image .bodyimage .tacotext{
+    position: relative;
+    top: 50px;
+    box-shadow: 4px 7px 5px rgb(58, 58, 122);
+    align-items: center;
+    align-items: center;
+    left: 40px;
+    display: inline-block;
+    background-color: #f1c40f;
+    color: black;
+    font-weight: 700;
+    margin: 6px 10px;
+    
+}
+
 .price .menuprice{
     position: relative;
     top: -498px;
@@ -125,4 +171,11 @@
     margin: 1px 9px;
     
     font-size: .7rem;
+}
+.footer .footermenu .menu .icons{
+    position: relative;
+    top: 6px;
+    left: 143px;
+    width: 39px; 
+    height: 38px;
 }
